@@ -1,3 +1,9 @@
+# revision 19409
+# category Package
+# catalog-ctan /fonts/libris
+# catalog-date 2010-07-10 19:16:06 +0200
+# catalog-license gpl
+# catalog-version 1.007
 Name:		texlive-libris
 Version:	1.007
 Release:	1
@@ -115,6 +121,7 @@ licensing.
 %doc %{_texmfdistdir}/source/fonts/libris/ts1-euro.etx
 %doc %{_texmfdistdir}/source/fonts/libris/yly-drv.tex
 %doc %{_texmfdistdir}/source/fonts/libris/yly-map.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -125,3 +132,5 @@ licensing.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
