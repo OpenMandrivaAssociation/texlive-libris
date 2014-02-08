@@ -6,7 +6,7 @@
 # catalog-version 1.007
 Name:		texlive-libris
 Version:	1.007
-Release:	2
+Release:	3
 Summary:	Libris ADF fonts, with LaTeX support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/libris
