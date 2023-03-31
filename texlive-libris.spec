@@ -1,6 +1,6 @@
 Name:		texlive-libris
 Version:	19409
-Release:	1
+Release:	2
 Summary:	Libris ADF fonts, with LaTeX support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/libris
