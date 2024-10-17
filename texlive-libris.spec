@@ -3,7 +3,7 @@ Version:	19409
 Release:	2
 Summary:	Libris ADF fonts, with LaTeX support
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/libris
+URL:		https://www.ctan.org/tex-archive/fonts/libris
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/libris.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/libris.doc.r%{version}.tar.xz
